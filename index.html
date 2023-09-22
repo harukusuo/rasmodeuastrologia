@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rasmodeu Astrologia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Website para consulta de horóscopo diário.">
+    <meta name="keywords" content="horóscopo, rasmodeu, astrologia">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="index.js"></script>
+</head>
+<header>
+    <img src="https://criacao.carrd.co/assets/images/image20.png?v=e2c844d0" alt="imagem pixelada estilo retrato do personagem 'Feiticeiro', ou 'M. Rasmodeu', do jogo 'Stardew Valley'">
+    <h1> Rasmodeu Astrologia </h1>
+</header>
+<body>
+    <br>
+    <p class="paragrafo"> Na Rasmodeu Astrologia você pode consultar o seu horóscopo diário, correspondente ao seu signo solar; caso você não tenha certeza de seu signo, é possível conferir dentro do site. </p>
+    <br>
+    <h2>Ainda não sabe seu signo solar? Confira abaixo juntamente com características de cada signo solar: </h2>
+    <section class="containers">
+        <div class="container">
+            <h2>Áries</h2>
+            <p>(21 março - 19 abril) - Os arianos são como um turbilhão de energia. São impulsivos, corajosos e sempre prontos para enfrentar desafios de cabeça erguida.</p>
+        </div>
+        <div class="container">
+            <h2>Touro</h2>
+            <p>(20 abril - 20 maio) - Taurinos são conhecidos por sua determinação e teimosia. Adoram conforto e são apreciadores das coisas boas da vida.</p>
+        </div>
+        <div class="container">
+            <h2>Gêmeos</h2>
+            <p>(21 maio - 20 junho) - Os geminianos são sociais e comunicativos por natureza. São curiosos, adaptáveis e sempre em busca de novas experiências.</p>
+        </div>
+        <div class="container">
+            <h2>Câncer</h2>
+            <p>(21 junho - 22 julho) - Cancerianos são conhecidos por seu lado sensível e empático. São protetores e carinhosos, e a família é fundamental para eles.</p>
+        </div>
+        <div class="container">
+            <h2>Leão</h2>
+            <p>(23 julho - 22 agosto) - Leoninos têm uma presença marcante. São confiantes, extrovertidos e amam brilhar.</p>
+        </div>
+        <div class="container">
+            <h2>Virgem</h2>
+            <p>(23 agosto - 22 setembro) - Virginianos são meticulosos e perfeccionistas por natureza. São analíticos e adoram organização.</p>
+        </div>
+        <div class="container">
+            <h2>Libra</h2>
+            <p>(23 setembro - 22 outubro) - Librianos são os pacificadores do zodíaco. Valorizam a harmonia e são justos.</p>
+        </div>
+        <div class="container">
+            <h2>Escorpião</h2>
+            <p>(23 outubro - 21 novembro) - Escorpianos são intensos e apaixonados. São enigmáticos e possuem uma profundidade emocional única.</p>
+        </div>
+        <div class="container">
+        <h2>Sagitário</h2>
+            <p>(22 novembro - 21 dezembro) - Sagitarianos são aventureiros e otimistas. São livres e adoram explorar o mundo.</p>
+        </div>
+        <div class="container">
+            <h2>Capricórnio</h2>
+            <p>(22 dezembro - 19 janeiro) - Capricornianos são ambiciosos e disciplinados. São práticos e buscam o sucesso com determinação.</p>
+        </div>
+        <div class="container">
+            <h2>Aquário</h2>
+            <p>(20 janeiro - 18 fevereiro) - Aquarianos são visionários e originais. São humanitários e adoram causas sociais.</p>
+        </div>
+        <div class="container">
+            <h2>Peixes</h2>
+            <p>(19 fevereiro - 20 março) - Piscianos são sensíveis e intuitivos. São criativos e têm uma profunda conexão espiritual.</p>
+        </div>
+    </section>
+    <section class="selecione">
+        <label for="sign">Selecione seu signo:</label>
+        <select id="sign" name="signo">
+            <option value="aries">Áries</option>
+            <option value="touro">Touro</option>
+            <option value="gemeos">Gêmeos</option>
+            <option value="cancer">Câncer</option>
+            <option value="leao">Leão</option>
+            <option value="virgem">Virgem</option>
+            <option value="libra">Libra</option>
+            <option value="escorpiao">Escorpião</option>
+            <option value="sagitario">Sagitário</option>
+            <option value="capricornio">Capricórnio</option>
+            <option value="aquario">Aquário</option>
+            <option value="peixes">Peixes</option>
+        </select>
+    </section>
+    <br>
+    <button onclick="obterhoroscopo()">Obter Horóscopo de Hoje</button>
+    <br>
+    <div id="resultadohoroscopo">
+        <!-- resultado do horóscopo aqui -->
+    </div>
+    <br>
+    <footer>
+        <h2> Redes Sociais </h2>
+        <nav>
+            <br>
+            <a href="https://twitter.com/">Twitter</a>
+            <a href="https://br.pinterest.com/">Pinterest</a>
+            <a href="https://www.instagram.com/">Instagram</a>
+        </nav>
+        <br>
+        <p class="direitos">© 2023 Rasmodeu Astrologia</p>
+    </footer>
+</body>
+</html>
