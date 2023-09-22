@@ -1,0 +1,150 @@
+body {
+    background-image: url(https://criacao.carrd.co/assets/images/image19.jpg?v=4eddbbb0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "FreeMono", monospace;
+    color: #00ffff;
+    margin: 0;
+    font-size: 16px;
+}
+
+.container {
+    background-color: #263e77;
+    padding: 2em;
+    border-radius: 1em;
+    text-align: center;
+    max-width: 100%;
+    margin: 1em 0;
+}
+
+.container h2 {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.container p {
+    font-size: 1em;
+    color: #ffffff;
+}
+
+.containers {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    justify-items: center;
+    align-items: center;
+}
+
+p {
+    color: #ffffff;
+}
+
+.selecione {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em auto;
+    max-width: 30em;
+}
+
+label[for="sign"], select#sign, button {
+    font-size: 1.2em;
+    display: block;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+select#sign option {
+    font-size: 1em;
+    background-color: #012769;
+    color: #ffffff;
+}
+
+select#sign {
+    border-radius: 1em;
+    color: #1b1751;
+    font-family: "FreeMono", monospace;
+}
+
+button {
+    font-size: 1em;
+    margin-bottom: 1em;
+    max-width: 10em;
+    font-family: "FreeMono", monospace;
+    background-color: #1e51a7;
+    color: #00ffff;
+    border: none;
+    padding: 0.25em 0.5em;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #1b1751;
+}
+
+.paragrafo {
+    text-indent: 1.5em;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #1b1751;
+}
+
+header img {
+    max-width: 50%;
+}
+
+header h1 {
+    margin: 0 auto;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav {
+    display: grid;
+    text-align: center;
+}
+
+.direitos {
+    text-align: center;
+}
+
+footer {
+    background-color: #1b1751;
+    display: grid;
+}
+
+body section, body header, body h2, body p {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+footer {
+    padding: 0 5%;
+}
+
+@media (max-width: 768px) {
+        .containers {
+            display: block;
+        }
+    
+        .container {
+            max-width: 100%;
+            margin: 1em;
+            display: block;
+        }
+
+        .selecione {
+            max-width: 90%;
+        }
+    }
